@@ -1,0 +1,380 @@
+<!DOCTYPE HTML>
+<html lang="tr">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hediye Atölyesi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="gettemplates.co" />
+
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet"> -->
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: "Playfair Display", serif;
+            background: #fff;
+            color: #828282;
+        }
+        #shopping-cart {
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+            width: 90%; /* Responsive genişlik */
+        }
+        h2 {
+            font-family: "Montserrat", Arial, sans-serif;
+            color: #000;
+            margin-bottom: 20px;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .table th, .table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e7b672;
+        }
+        .table th {
+            background-color: #e7b672; /* Turuncu tonları */
+            color: #fff;
+        }
+        .product-image {
+            width: 50px; /* Ürün resmi genişliği */
+            height: 50px; /* Ürün resmi yüksekliği */
+            object-fit: cover; /* Resmin uygun şekilde kesilmesi */
+            margin-right: 10px; /* Resim ile metin arasında boşluk */
+        }
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+            color: #fff;
+            font-family: "Montserrat", Arial, sans-serif;
+        }
+        .btn-danger {
+            background-color: #000; /* Kaldır butonu siyah */
+        }
+        .btn-danger:hover {
+            background-color: #444; /* Kaldır butonu hover rengi */
+        }
+        .btn-success {
+            background-color: #000; /* Alışverişi Tamamla butonu siyah */
+        }
+        .btn-success:hover {
+            background-color: #444; /* Alışverişi Tamamla butonu hover rengi */
+        }
+        .total {
+            font-size: 20px;
+            font-family: "Montserrat", Arial, sans-serif;
+            color: #000;
+            margin-top: 20px;
+        }
+        .quantity-controls {
+            display: flex;
+            align-items: center;
+        }
+        .quantity-controls button {
+            padding: 5px 10px;
+            margin: 0 5px;
+            background-color: #e7b672; /* Turuncu tonları */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+        .quantity-controls button:hover {
+            background-color: #d69e5a; /* Hover rengi */
+        }
+        .quantity-controls input {
+            width: 60px;
+            text-align: center;
+        }
+  
+        /* Responsive ayarlar */
+        @media (max-width: 768px) {
+            #shopping-cart {
+                padding: 15px;
+                width: 95%; /* Mobilde genişlik ayarı */
+            }
+            .table th, .table td {
+                font-size: 14px; /* Küçük ekranlarda font boyutu */
+            }
+            .btn {
+                font-size: 14px; /* Küçük ekranlarda buton boyutu */
+            }
+            .total {
+                font-size: 18px; /* Küçük ekranlarda toplam boyutu */
+            }
+        }
+    </style>
+	</head>
+	<body>
+		
+		<div class="fh5co-loader"></div>
+		<div id="page">
+		<nav class="fh5co-nav" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-xs-2">
+						<div  id="fh5co-logo"><a href="index.html">Hediye Atölyesi</a></div>
+					</div>
+					<div class="col-md-6 col-xs-6 text-center menu-1">
+						<ul>
+							<li  class="has-dropdown"><a href="about.html">Hakkımızda</a></li>
+							<li class="has-dropdown">
+								<a href="product.html">Ürünlerimiz</a>
+								<ul class="dropdown">
+									<li><a href="cam-seramik.html">Cam-Seramik</a></li>
+									<li><a href="mum.html">Mum</a></li>
+									<li><a href="geceLambasi.html">Gece Lambası</a></li>
+									<li><a href="hediyeSet.html">Hediye Setleri</a></li>
+								</ul>
+							</li>
+							
+							<li class="has-dropdown">
+								<a href="birimler.html">Birimlerimiz</a>
+								<ul class="dropdown">
+									<li><a href="kisiselHediye.html">Kişisel Hediyeler</a></li>
+									<li><a href="kurumsalHediye.html">Kurumsal Hediyeler</a></li>
+								</ul>
+							</li>
+							<li><a href="misyon-vizyon.html">Misyon-Vizyon</a></li>
+							<li><a href="contact.html">İletişim</a></li>
+							
+						</ul>
+					</div>
+					<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
+						<ul >
+							<li class="has-dropdown">
+								<a href="login.html">Giriş Yap</a>
+							</li>
+							<li class="shopping-cart"><a href="sepet.html" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</nav>
+        <body>
+            <div id="shopping-cart">
+                <h2>Alışveriş Sepeti</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ürün</th>
+                            <th>Fiyat</th>
+                            <th>Adet</th>
+                            <th>Toplam</th>
+                            <th>İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="https://via.placeholder.com/50" alt="Ürün 1" class="product-image"> Ürün 1
+                            </td>
+                            <td>₺100</td>
+                            <td>
+                                <div class="quantity-controls">
+                                    <button class="btn btn-danger" onclick="changeQuantity(this, -1)">-</button>
+                                    <input type="number" value="1" min="0" readonly>
+                                    <button class="btn btn-success" onclick="changeQuantity(this, 1)">+</button>
+                                </div>
+                            </td>
+                            <td>₺100</td>
+                            <td><button class="btn btn-danger">Kaldır</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="https://via.placeholder.com/50" alt="Ürün 2" class="product-image"> Ürün 2
+                            </td>
+                            <td>₺150</td>
+                            <td>
+                                <div class="quantity-controls">
+                                    <button class="btn btn-danger" onclick="changeQuantity(this, -1)">-</button>
+                                    <input type="number" value="1" min="0" readonly>
+                                    <button class="btn btn-success" onclick="changeQuantity(this, 1)">+</button>
+                                </div>
+                            </td>
+                            <td>₺150</td>
+                            <td><button class="btn btn-danger">Kaldır</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="total">Toplam: ₺250</div>
+                <button class="btn btn-success">Alışverişi Tamamla</button>
+            </div>
+
+	
+	<div id="fh5co-started">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Haber Bülteni</h2>
+					<p>Kampanya ve fırsatlardan haberdar olmak için bültenimize abone olabilirsiniz.</p>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<form class="form-inline">
+						<div class="col-md-6 col-sm-6">
+							<div class="form-group">
+								<label for="email" class="sr-only">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<button type="submit" class="btn btn-default btn-block">Abone Ol</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="row row-pb-md">
+				<div class="col-md-4 fh5co-widget">
+					<h3>Hediye Atölyesi</h3>
+					<p>Sevdiklerinize özel, unutulmaz anılar için eşsiz hediyeler!</p>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+					<ul class="fh5co-footer-links">
+						<li><a href="about.html">Hakkımızda</a></li>
+						<li><a href="product.html">Ürünlerimiz</a></li>
+						<li><a href="misyon-vizyon.html">Misyon-Vizyon</a></li>
+						<li><a href="birimler.html">Birimlerimiz</a></li>
+						<li><a href="contact.html">İletişim</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+					<ul class="fh5co-footer-links">
+						<li>Adres</li>
+						<li>Kabaoğlu, Baki Komsuoğlu bulvarı No:515, Umuttepe, 41001 İzmit/Kocaeli</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+					<ul class="fh5co-footer-links">
+						<li>İletişim</a></li>
+						<li>Telefon: 0262 111 11 11</a></li>
+						<li>Faks: 0212 555 12 34</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy;2024 Tüm hakları saklıdır.</small> 
+						<small class="block">Designed by FreeHTML5.co and AA</small> 
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+    <script>
+        function changeQuantity(button, change) {
+            const input = button.parentNode.querySelector('input[type="number"]');
+            let currentValue = parseInt(input.value);
+            currentValue += change;
+            if (currentValue < 0) currentValue = 0;
+            input.value = currentValue;
+            // Toplam güncellenmeli burada
+        }
+    </script>
+	</body>
+</html>
+
+
