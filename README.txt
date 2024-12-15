@@ -6,7 +6,7 @@ Bu proje, hediyelik eşya satışı yapan bir web sitesinin tasarımını ve gel
 
 ---
 
-## Proje Özeti
+### Proje Özeti
 
 Hediyelik eşya web sitesi, kullanıcıların estetik bir tasarıma sahip ve işlevsel bir platformda hediye alışverişi yapmalarını sağlar. Proje, hem son kullanıcılar için kolay erişim sağlayan bir arayüz hem de içerik yönetimi için fonksiyonel bir admin paneli içerir.
 
