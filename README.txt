@@ -46,8 +46,4 @@ Bu proje, hediyelik eşya satışı yapan bir web sitesinin temel işlevselliği
 
 Proje sonunda, kullanıcı dostu bir alışveriş deneyimi ve güçlü bir içerik yönetim sistemi ortaya çıkmıştır. Gelecek geliştirmelerde, daha fazla ödeme sistemi entegrasyonu, kullanıcı yorumları ekleme gibi ek özellikler planlanmaktadır.
 
----
 
-
-
----
