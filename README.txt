@@ -31,14 +31,6 @@ Projenin geliştirilmesinde aşağıdaki frontend teknolojileri kullanılmışt�
 - ![JavaScript]
 - ![Bootstrap]
 
-## 📸 Görseller
-
-> Projeye ait ekran görüntüleri bu bölümde yer alabilir. Örneğin:
-
-- 📷 Ana Sayfa  
-- 📷 Ürün Detay Sayfası  
-- 📷 Mobil Görünüm
-
 ## 🚀 Geliştirme Durumu
 
 - [x] Kullanıcı arayüzü tasarımı  
@@ -50,12 +42,5 @@ Projenin geliştirilmesinde aşağıdaki frontend teknolojileri kullanılmışt�
 - Ürün filtreleme sistemi  
 - Kullanıcı yorumları alanı  
 - Sepet ve ödeme entegrasyonu (yalnızca fikir aşamasında)
-
-## 📫 İletişim
-
-Geliştirici: **[Adınızı buraya yazabilirsiniz]**  
-Mail: [ornekmail@gmail.com]
-
----
 
 > Bu proje, HTML/CSS/JavaScript alanında pratik yapmak ve UI tasarımı becerilerini geliştirmek amacıyla gerçekleştirilmiştir.
