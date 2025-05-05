@@ -26,10 +26,10 @@ Kullanıcıların farklı kategorilerdeki hediyelik ürünleri kolayca keşfedip
 
 Projenin geliştirilmesinde aşağıdaki frontend teknolojileri kullanılmıştır:
 
-- ![HTML5]
-- ![CSS] 
-- ![JavaScript]
-- ![Bootstrap]
+- ![HTML5](https://img.shields.io/badge/-HTML5-000000?style=for-the-badge&logo=html5&logoColor=E34F26)
+- ![CSS](https://img.shields.io/badge/-CSS-000000?style=for-the-badge&logo=css3&logoColor=1572B6)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+- ![Bootstrap](https://img.shields.io/badge/-Bootstrap-000000?style=for-the-badge&logo=bootstrap&logoColor=563D7C)
 
 ## 🚀 Geliştirme Durumu
 
